@@ -42,7 +42,7 @@ export const router = createRouter({
       component: UserAuth,
       meta: { requiresUnauth: true }
     },
-    { path: '/:notFound(.*)', component: NotFound }
+//     { path: '/:notFound(.*)', component: NotFound }
   ]
 });
 
